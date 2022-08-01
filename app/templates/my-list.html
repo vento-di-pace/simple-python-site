@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой список!</title>
+</head>
+<body>
+
+<div>
+    <table>
+        {% for key, value in my_list.items() %}
+        <tr>
+            <td> {{key}} </td>
+            <td> {{value}} </td>
+        {% endfor %}
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
